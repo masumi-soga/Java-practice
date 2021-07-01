@@ -45,6 +45,10 @@ int i = Integer.valueOf(num);
 Scanner sc = new Scanner(System.in);
         int weight = sc.nextInt();
 ```
+next()とnextLine()の違い. 
+next():スペースで分割されたトークンを検索して、見つかった順にトークンを返します。  
+一度スキャナから入力を取り込んだ後にトークンを返すので改行うんぬんは関係ありません。  
+nextLine():今あるカーソルを次の行の先頭に進めます。そして、スキップした分を出力します。  
 
 **最小値を取得**
 ```java:min
